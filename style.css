@@ -1,0 +1,116 @@
+body {
+    margin: 0;
+}
+
+.navbar {
+    border: 1px solid red;
+    background: #009abf;
+    padding: 20px;
+
+}
+
+h1 {
+    margin: 0;
+}
+
+.logo img {
+    width: 180px;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto; 
+}
+
+.nav-menu {
+    float: right; 
+}
+
+.nav-link {
+    display: inline-block;
+    font-weight: bold;
+    margin: 0 20px;
+    font-size: 26px;
+    color: white
+}
+
+.hero {
+    border: 1px solid red;
+    background-image: url('images/hero-image.jpg'); 
+    background-size: cover;
+    position: relative;
+    height: 400px;
+    padding: 150px;
+    background-repeat: no-repeat;
+    z-index: -1;
+}
+
+.hero h1 {
+    color: white;
+    font-size: 48px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.hero h4 {
+    color: white;
+    font-size: 36px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.hero p {
+    color: white;
+    font-size: 28px;
+    text-transform: uppercase;
+    position: absolute;
+    bottom: 40px;
+    left: 38%; 
+}
+
+.news {
+    border: 1px solid green;
+    background-color: white;
+    margin: -50px auto 0;
+    height: 400px;
+    z-index: 1;
+    width: 80%;
+    padding: 20px;
+}
+
+.news h1 {
+    color: #d08a00;
+}
+
+.article {
+    border: solid 1px purple;
+    display: inline-block;
+    max-width: 280px; 
+    /* margin: auto; figure out margin of articles because it's bugging you */
+}
+
+.article img { 
+    max-width: 100%;
+}
+
+.divider {
+    width: 60px;
+    height: 2px; 
+    background-color: black;
+    margin: 5px 0;
+}
+
+.description {
+    font-style: italic;
+    opacity: .8;
+
+}
+
+.h2 {
+    text-transform: uppercase;
+    color: #009abf;
+}
+
+.image-container img {
+    width: 280px;
+}
